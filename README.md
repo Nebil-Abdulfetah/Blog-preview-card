@@ -16,12 +16,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Screenshot of the finished website](./images/Screenshot.png)
+![Screenshot of the finished website](./assets/images/blog-preview.png)
 
 ### Links
 
-- Solution URL: (https://github.com/Nebil-Abdulfetah/QR-code-component)
-- Live Site URL: (https://nebil-abdulfetah.github.io/QR-code-component/)
+- Solution URL: (https://github.com/Nebil-Abdulfetah/Blog-preview-card)
+- Live Site URL: (https://nebil-abdulfetah.github.io/Blog-preview-card/)
 
 ## My process
 
