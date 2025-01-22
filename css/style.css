@@ -1,1 +1,69 @@
-/* font-family: "Figtree", serif; */
+:root {
+    --color-yellow: hsl(47, 88%, 63%);
+    --color-White: hsl(0, 0%, 100%);
+    --color-gray-light: hsl(0, 0%, 42%);
+    --color-gray-dark: hsl(0, 0%, 7%);
+}
+
+body {
+    font-size: 16px;
+    font-family: "Figtree", serif;
+    margin: 0;
+    line-height: 150%;
+}
+main {
+    height: 100vh;
+    background-color: var(--color-yellow);
+    align-content: center;
+    justify-items: center;
+}
+h1 {
+    font-size: 1.5rem;
+}
+p {
+    max-width: 310px;
+    color: var(--color-gray-light);
+    font-weight: medium;
+}
+.wrapper {
+    background-color: var(--color-White);
+    border-radius: 20px;
+    border: 1px solid var(--color-gray-dark);
+    box-shadow: 8px 8px var(--color-gray-dark);
+}
+.container {
+    margin-inline: auto;
+    margin: 1.5rem;
+}
+.card-img{
+    height: 200px;
+    background: url(../assets/images/illustration-article.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.card-tag {
+    background-color: var(--color-yellow);
+    width: fit-content;
+    padding: 4px 12px;
+    margin-block: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.card-date, .profile-name {
+    font-size: .875rem;
+    font-weight: medium;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.profile-img {
+    background: url(../assets/images/image-avatar.webp);
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+}
